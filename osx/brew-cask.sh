@@ -6,10 +6,10 @@ brew cask install firefox
 brew cask install google-chrome
 
 ##tools
-brew cask install alfred
 brew cask install iterm2
 brew cask install intellij-idea
 
+brew cask install rectangle
 brew cask install yed
 brew cask install slack
 brew cask install little-snitch
@@ -30,5 +30,4 @@ brew cask install namebench
 brew cask install macdown
 
 brew cask install visual-studio-code
-brew cask install spectacle
 brew cask install rocket
