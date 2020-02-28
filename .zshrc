@@ -19,7 +19,7 @@ export NVM_DIR="$HOME/.nvm"
 # export PATH=$HOME/bin:/usr/local/bin:$PATH
 
 # Path to your oh-my-zsh installation.
-export ZSH="/Users/joel/.oh-my-zsh"
+export ZSH="/Users/joelgrimberg/.oh-my-zsh"
 
 # Set name of the theme to load --- if set to "random", it will
 # load a random theme each time oh-my-zsh is loaded, in which case,
@@ -139,16 +139,24 @@ export PATH="$PATH:$HOME/.rvm/bin"
 
 #AWSume alias to source the AWSume script
 fpath=(/usr/local/share/zsh/site-functions $fpath)
-source ~/.aliases
-cat ~/.alias_tips_tricks
-eval "$(pyenv init -)"
+fpath=(~/.awsume/zsh-autocomplete/ $fpath)
+
+source ~/dotfiles/.aliases
+cat ~/dotfiles/.alias_tips_tricks
+#eval "$(pyenv init -)"
 
 #AWSume alias to source the AWSume script
 #alias awsume=". \$(pyenv which awsume)"
+#alias awsume=". awsume"
+#export PATH=$PATH:/Users/joelgrimberg/Library/Python/2.7/bin
 
 set -o vi
 
 eval $(thefuck --alias)
-
 autoload -U compinit && compinit
+
+alias pip=/usr/local/bin/pip3
+if command -v pyenv 1>/dev/null 2>&1; then
+  eval "$(pyenv init -)"
+fi
 

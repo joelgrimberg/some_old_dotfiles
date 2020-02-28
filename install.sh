@@ -45,7 +45,7 @@ echo "installing taskbook..."
 source $DOTFILES/commandline/plugins/taskbook.sh
 
 echo "installing AWS tools..."
-source $DOTFILES/AWS/tools.sh
+source $DOTFILES/aws/tools.sh
 
 echo "installing Node apps..."
 source $DOTFILES/osx/node_apps.sh

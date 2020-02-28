@@ -46,6 +46,8 @@ brew install openssh
 brew install screen
 brew install ansiweather
 brew install thefuck
+brew install jrnl
+
 
 # PHP 5.5
 brew install php55 
