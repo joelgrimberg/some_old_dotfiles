@@ -47,6 +47,7 @@ brew install screen
 brew install ansiweather
 brew install thefuck
 brew install jrnl
+brew install gist
 
 
 # PHP 5.5
