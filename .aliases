@@ -206,3 +206,5 @@ alias reload='exec $SHELL -l'
 alias weather='ansiweather'
 
 alias gtree='~/bin/git-foresta'
+
+alias drop='cat ~/dotfiles/dropalt.md'
