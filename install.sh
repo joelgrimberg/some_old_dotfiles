@@ -17,15 +17,6 @@ source $DOTFILES/osx/brew.sh
 echo "installing brew casks..."
 source $DOTFILES/osx/brew-cask.sh
 
-echo "installing oh_my_zsh..."
-source $DOTFILES/commandline/oh_my_zsh.sh
-
-echo "installing Powerline fonts..."
-source $DOTFILES/commandline/powerline_fonts.sh
-
-echo "installing Powerlevel10k..."
-source $DOTFILES/commandline/powerlevel10k.sh
-
 echo "installing pip..."
 source $DOTFILES/commandline/pip.sh
 
@@ -52,6 +43,21 @@ source $DOTFILES/osx/node_apps.sh
 
 echo "setting up symlinks..."
 source $DOTFILES/osx/symlinks.sh
+
+
+echo "installing Powerline fonts..."
+source $DOTFILES/commandline/powerline_fonts.sh
+
+echo "installing oh_my_zsh..."
+source $DOTFILES/commandline/oh_my_zsh.sh
+
+echo "installing Powerlevel10k..."
+source $DOTFILES/commandline/powerlevel10k.sh
+
+
+
+
+
 
 # TODO
 #gasmask inclusief dns list
