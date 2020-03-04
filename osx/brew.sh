@@ -22,25 +22,20 @@ brew install moreutils
 # Install GNU `find`, `locate`, `updatedb`, and `xargs`, `g`-prefixed.
 brew install findutils
 # Install GNU `sed`, overwriting the built-in `sed`.
-brew install gnu-sed --with-default-names
+brew install gnu-sed
 
 # Install Bash 4.
 # Note: don’t forget to add `/usr/local/bin/bash` to `/etc/shells` before
 # running `chsh`.
 #brew install bash
 
-#brew tap homebrew/versions
-#brew install bash-completion2
-
-brew tap caskroom/versions
-brew tap caskroom/cask
+brew tap homebrew/cask-versions
+brew tap homebrew/cask-cask
 
 # Install `wget` with IRI support.
 #brew install wget --with-iri
 
 # Install more recent versions of some OS X tools.
-#brew install vim --override-system-vi
-brew tap homebrew/dupes
 brew install grep
 brew install openssh
 brew install screen
@@ -51,12 +46,12 @@ brew install gist
 
 
 # PHP 5.5
-brew install php55 
+brew install php55
 
 brew install gnupg
 
 # Dev tools
-brew install pyenv 
+brew install pyenv
 brew install ansible
 brew install ant
 brew install aom
@@ -70,7 +65,7 @@ brew install jenv
 brew install nvm
 brew install yarn
 brew install z
-brew install wget 
+brew install wget
 brew install nmap
 brew install ruby
 brew install rbenv
