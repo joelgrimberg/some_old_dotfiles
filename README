@@ -2,4 +2,4 @@
 
 ## Installation
 
-to install, execute `. ./install.sh`
+to install, execute `. ./install.sh |& tee ~/outputfile.txt`
