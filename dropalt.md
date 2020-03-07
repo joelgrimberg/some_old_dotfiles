@@ -47,3 +47,6 @@ Fn + Shift + Escape: Tilde ( ~ )
 
 ## Keyboard Option Keys
 Fn + N: Toggle keyboard 6KRO/NKRO (Default state 6KRO)
+
+## Webversion
+https://drop.com/talk/10343/how-to-configure-your-alt-keyboard
