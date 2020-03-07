@@ -100,10 +100,13 @@
       "`"
     ]
   },
-  "window.zoomLevel": 0,
+  "window.zoomLevel": 1,
   "editor.parameterHints.enabled": false,
   "editor.codeActionsOnSave": {
     "source.fixAll.eslint": true
   },
-  "sync.gist": "dacd8ccbf7a22dd205a7cd0f949f37fa"
+  "sync.gist": "dacd8ccbf7a22dd205a7cd0f949f37fa",
+  "[html]": {
+    "editor.defaultFormatter": "vscode.html-language-features"
+  }
 }
