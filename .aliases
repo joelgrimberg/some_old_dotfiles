@@ -207,4 +207,7 @@ alias weather='ansiweather'
 
 alias gtree='~/bin/git-foresta'
 
-alias drop='cat ~/dotfiles/dropalt.md'
+alias drop='clear; cat ~/dotfiles/dropalt.md'
+alias keys='clear; cat ~/dotfiles/shortkeys'
+
+alias icloud='cd ~/Library/Mobile\ Documents/com~apple~CloudDocs/'
