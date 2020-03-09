@@ -18,6 +18,8 @@ open    --> open -a Firefox\ Developer\ Edition
 
 googler   --> google CLI
 
-icloud    -> goto icloud drive
+icloud    --> goto icloud drive
 
-keys    ->  shortkey tips
+keys    -->  shortkey tips
+
+imgcat    -->  show picture in CLI
