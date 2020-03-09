@@ -91,6 +91,7 @@ brew install groovy
 brew install wogstash
 brew install nvm
 brew install tree
+brew install eddieantonio/eddieantonio/imgcat
 
 # Install font tools.
 # brew tap bramstein/webfonttools
