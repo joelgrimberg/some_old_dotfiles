@@ -155,3 +155,6 @@ fi
 autoload -U compinit && compinit
 
 set -o vi
+
+test -e "${HOME}/.iterm2_shell_integration.zsh" && source "${HOME}/.iterm2_shell_integration.zsh"
+
