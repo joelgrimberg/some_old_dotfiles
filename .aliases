@@ -211,3 +211,5 @@ alias drop='clear; cat ~/dotfiles/dropalt.md'
 alias keys='clear; cat ~/dotfiles/shortkeys'
 
 alias icloud='cd ~/Library/Mobile\ Documents/com~apple~CloudDocs/'
+
+alias corona='curl https://corona-stats.online/Netherlands'
