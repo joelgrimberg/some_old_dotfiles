@@ -23,3 +23,5 @@ icloud    --> goto icloud drive
 keys    -->  shortkey tips
 
 imgcat    -->  show picture in CLI
+
+vcp     --> 'visual' rsync  
