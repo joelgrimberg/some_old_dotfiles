@@ -101,6 +101,7 @@ plugins=(
 	  npm
 	  aws
 	  brew
+    rsync
 	)
 
 source $ZSH/oh-my-zsh.sh
